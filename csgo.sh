@@ -1,0 +1,1 @@
+docker run -d -p 27015:27015 -p 27015:27015/udp --name csgo gonzih/csgo-server -console -usercon +game_type 0 +game_mode 1 +mapgroup mg_active +map de_cache +sv_lan 0 +sv_setsteamaccount {TOKEN} -net_port_try 1
